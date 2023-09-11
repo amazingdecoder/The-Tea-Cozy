@@ -1,0 +1,150 @@
+body { background-color: black;
+font-size: 22px;
+color: seashell;
+font-family: Helvetica;
+}
+
+nav {
+    border-bottom: 1px solid seashell;
+    height: 69px;
+}
+
+nav img {
+    width: 150px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 800px;
+}
+
+nav li {
+	display: table-cell;
+    text-decoration: underline;    
+}
+
+nav ul {
+	padding: 0;
+	background-color: black;
+	width: 100%;
+    display: table;
+}
+
+nav a {
+    color: seashell;
+}
+
+nav a:hover {
+    background-color: yellow;
+}
+
+#img1 {
+    height: 700px;
+    width: 100%; 
+}
+
+.mission {
+    text-align: center;
+    background-color: black;
+   position: absolute;
+   width: 100%;
+    top: 350px;
+}
+
+.tea {
+    text-align: center;
+    
+}
+
+.upimg {
+    padding: 2px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 10px;
+}
+
+ .upimg img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+ }   
+
+ .downimg {
+    padding: 2px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+ }
+
+ .downimg img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+ }
+
+ #img2 {
+    
+    height: 500px;
+    width: 100%;
+ }
+
+ .location {
+    left: 700px;
+    position: absolute;
+ }
+
+.downtown {
+    position: absolute; 
+    background-color: black;
+    width: 20%;
+    height: 30%;
+    border: 1px solid black;
+    margin-left: 200px;
+    margin-top: 90px;
+    text-align: center;
+}
+ 
+ .east-bayside {
+    position: absolute;
+    background-color: black;
+    width: 20%;
+    height: 30%;
+    border: 2px solid black;
+    margin-left: 600px;
+    margin-top: 90px;
+    text-align: center;
+ }
+
+ .oakdale {
+    position: absolute;
+    background-color: black;
+    width: 20%;
+    height: 30%;
+    border: 2px solid black;
+    margin-left: 1000px;
+    margin-top: 90px;
+    text-align: center;
+ }
+
+ .contact {
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 0%;
+    height: 200px;
+ }
+
+ #copyright {
+    text-align: left;
+    margin-top: 20px;
+ }
+
+
+
+
+
+
+
+
+
+
